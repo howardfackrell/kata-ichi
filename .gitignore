@@ -15,4 +15,5 @@
 /tmp
 
 /.redcar
+.idea
 database.yml
