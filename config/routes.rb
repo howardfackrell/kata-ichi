@@ -1,4 +1,6 @@
 KataIchi::Application.routes.draw do
+  get "hello/greet", to: 'hello#greet', as: 'greet'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
